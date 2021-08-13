@@ -8,14 +8,6 @@
 import XCTest
 @testable import UnsplashImageSearch
 
-/*
-plan:
- mapper responsible translate from json to Photo
-
- 1, create json file
-
- */
-
 class SearchResponseMapperTests: XCTestCase {
 
     typealias APIPhoto = SearchResponseMapper.APIPhoto
@@ -78,7 +70,6 @@ class SearchResponseMapperTests: XCTestCase {
 class SearchResponseMapper {
 
     struct Response: Decodable {
-        // dto
         let results: [APIPhoto]
     }
 
