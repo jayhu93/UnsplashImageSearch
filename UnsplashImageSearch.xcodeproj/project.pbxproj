@@ -16,8 +16,8 @@
 		B77D470826C6E0DB00224298 /* UnsplashImageSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D470726C6E0DB00224298 /* UnsplashImageSearchTests.swift */; };
 		B77D471326C6E0DB00224298 /* UnsplashImageSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D471226C6E0DB00224298 /* UnsplashImageSearchUITests.swift */; };
 		B77D472526C6E10F00224298 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D472426C6E10F00224298 /* Photo.swift */; };
-		B77D472726C6E23B00224298 /* SearchResponseMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D472626C6E23B00224298 /* SearchResponseMapperTests.swift */; };
 		B77D472926C6E29B00224298 /* PhotoSearchResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B77D472826C6E29B00224298 /* PhotoSearchResponse.json */; };
+		B77D472C26C6F3FA00224298 /* SearchResponseMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D472626C6E23B00224298 /* SearchResponseMapperTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,8 +120,8 @@
 		B77D470626C6E0DB00224298 /* UnsplashImageSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				B77D470726C6E0DB00224298 /* UnsplashImageSearchTests.swift */,
 				B77D472626C6E23B00224298 /* SearchResponseMapperTests.swift */,
+				B77D470726C6E0DB00224298 /* UnsplashImageSearchTests.swift */,
 				B77D472826C6E29B00224298 /* PhotoSearchResponse.json */,
 				B77D470926C6E0DB00224298 /* Info.plist */,
 			);
@@ -287,8 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B77D472726C6E23B00224298 /* SearchResponseMapperTests.swift in Sources */,
 				B77D470826C6E0DB00224298 /* UnsplashImageSearchTests.swift in Sources */,
+				B77D472C26C6F3FA00224298 /* SearchResponseMapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
