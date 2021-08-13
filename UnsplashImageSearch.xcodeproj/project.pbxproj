@@ -15,6 +15,9 @@
 		B77D46FD26C6E0DB00224298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77D46FB26C6E0DB00224298 /* LaunchScreen.storyboard */; };
 		B77D470826C6E0DB00224298 /* UnsplashImageSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D470726C6E0DB00224298 /* UnsplashImageSearchTests.swift */; };
 		B77D471326C6E0DB00224298 /* UnsplashImageSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D471226C6E0DB00224298 /* UnsplashImageSearchUITests.swift */; };
+		B77D472526C6E10F00224298 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D472426C6E10F00224298 /* Photo.swift */; };
+		B77D472726C6E23B00224298 /* SearchResponseMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D472626C6E23B00224298 /* SearchResponseMapperTests.swift */; };
+		B77D472926C6E29B00224298 /* PhotoSearchResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = B77D472826C6E29B00224298 /* PhotoSearchResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B77D470E26C6E0DB00224298 /* UnsplashImageSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashImageSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77D471226C6E0DB00224298 /* UnsplashImageSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashImageSearchUITests.swift; sourceTree = "<group>"; };
 		B77D471426C6E0DB00224298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77D472426C6E10F00224298 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		B77D472626C6E23B00224298 /* SearchResponseMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponseMapperTests.swift; sourceTree = "<group>"; };
+		B77D472826C6E29B00224298 /* PhotoSearchResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PhotoSearchResponse.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 				B77D46F926C6E0DB00224298 /* Assets.xcassets */,
 				B77D46FB26C6E0DB00224298 /* LaunchScreen.storyboard */,
 				B77D46FE26C6E0DB00224298 /* Info.plist */,
+				B77D472226C6E0EE00224298 /* Model */,
 			);
 			path = UnsplashImageSearch;
 			sourceTree = "<group>";
@@ -114,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				B77D470726C6E0DB00224298 /* UnsplashImageSearchTests.swift */,
+				B77D472626C6E23B00224298 /* SearchResponseMapperTests.swift */,
+				B77D472826C6E29B00224298 /* PhotoSearchResponse.json */,
 				B77D470926C6E0DB00224298 /* Info.plist */,
 			);
 			path = UnsplashImageSearchTests;
@@ -126,6 +135,14 @@
 				B77D471426C6E0DB00224298 /* Info.plist */,
 			);
 			path = UnsplashImageSearchUITests;
+			sourceTree = "<group>";
+		};
+		B77D472226C6E0EE00224298 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B77D472426C6E10F00224298 /* Photo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77D472926C6E29B00224298 /* PhotoSearchResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77D472526C6E10F00224298 /* Photo.swift in Sources */,
 				B77D46F526C6E0DA00224298 /* ViewController.swift in Sources */,
 				B77D46F126C6E0DA00224298 /* AppDelegate.swift in Sources */,
 				B77D46F326C6E0DA00224298 /* SceneDelegate.swift in Sources */,
@@ -268,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77D472726C6E23B00224298 /* SearchResponseMapperTests.swift in Sources */,
 				B77D470826C6E0DB00224298 /* UnsplashImageSearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
